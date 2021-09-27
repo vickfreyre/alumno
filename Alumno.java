@@ -49,15 +49,15 @@ class Alumno {
     // Método que imprime en pantalla los datos del alumno.
 
     public static String getImprimir(){
-        String imprimir = null;
+
         System.out.println("Nombre del estudiante: " + Alumno.nombre);
         for(int i=0; i<5; i++){
             System.out.println("Calificación " + (i+1) + ": " + Alumno.notas[i]);
         }
         System.out.println("Promedio: " + getPromedio());
         System.out.println("Calificación: " + getCalificacion());
-        
-        return imprimir;
+
+        return null;
     }
     
     public static void main(String[] args) {
